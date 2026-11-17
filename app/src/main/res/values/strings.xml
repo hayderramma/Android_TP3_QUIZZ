@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz en images</string>
+    <string name="titre">Quiz en images</string>
+
+    <string name="score_initial">Score : 0 / 5</string>
+    <string name="score">Score : %1$d / %2$d</string>
+    <string name="progression_initiale">0 / 5 réponses données</string>
+    <string name="progression">%1$d / %2$d réponses données</string>
+
+    <string name="numero_question_initial">Question 1 sur 5</string>
+    <string name="numero_question">Question %1$d sur %2$d</string>
+    <string name="question_initiale">Observez l’image et choisissez une réponse.</string>
+    <string name="description_image">Image illustrant la question courante</string>
+
+    <string name="choix_1">Choix 1</string>
+    <string name="choix_2">Choix 2</string>
+    <string name="choix_3">Choix 3</string>
+
+    <string name="bonne_reponse">Bonne réponse ! +1 point</string>
+    <string name="mauvaise_reponse">Mauvaise réponse. La bonne réponse était : %1$s</string>
+    <string name="question_suivante">Question suivante</string>
+    <string name="voir_resultat">Voir le résultat</string>
+
+    <string name="resultat_initial">Score final : 0 / 5</string>
+    <string name="resultat_final">Score final : %1$d / %2$d</string>
+    <string name="resultat_parfait">Parfait, aucune erreur !</string>
+    <string name="resultat_bien">Bien joué, continuez comme ça !</string>
+    <string name="resultat_encourage">Pas mal, réessayez pour faire mieux !</string>
+    <string name="rejouer">Rejouer</string>
+</resources>

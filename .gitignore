@@ -1,0 +1,8 @@
+# Fichiers locaux / générés : ne jamais versionner
+*.iml
+.gradle/
+local.properties
+.idea/
+build/
+app/build/
+.DS_Store
