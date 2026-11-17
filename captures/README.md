@@ -1,19 +1,24 @@
-# Captures d'écran
+# Captures d’écran
 
-Ce dossier doit contenir les captures **réelles** de l'application (une fois celle-ci lancée sur un
-émulateur ou un appareil). Les fichiers attendus sont :
+Les quatre captures ci-dessous ont été réalisées sur l’émulateur Android (Pixel_8, écran 1080 × 2400)
+avec l’APK compilé depuis ce dépôt.
 
-| Fichier | Situation à capturer |
+| Fichier | Situation capturée |
 | --- | --- |
-| `01_question.png` | Une question avec son image, ses trois boutons, le score en haut à droite et la barre de progression. |
-| `02_bonne_reponse.png` | Une bonne réponse : message vert « Bonne réponse ! +1 point » et score mis à jour. |
-| `03_mauvaise_reponse.png` | Une mauvaise réponse : message rouge indiquant la bonne réponse, score inchangé, progression avancée. |
-| `04_resultat_final.png` | L'écran final avec le score obtenu et le bouton **Rejouer**. |
+| `01_question.png` | Question 1 avec son image, ses trois boutons, le score 0/5 en haut à droite et la progression 0/5. |
+| `02_bonne_reponse.png` | Bonne réponse à la question 1 : message « Bonne réponse ! +1 point », score 1/5, progression 1/5. |
+| `03_mauvaise_reponse.png` | Mauvaise réponse à la question 2 : message indiquant la bonne réponse, score inchangé (1/5), progression 2/5. |
+| `04_resultat_final.png` | Écran final après cinq bonnes réponses : score 5/5, progression 5/5 et bouton **Rejouer**. |
 
-## Comment les obtenir
+![Question](01_question.png)
+![Bonne réponse](02_bonne_reponse.png)
+![Mauvaise réponse](03_mauvaise_reponse.png)
+![Résultat final](04_resultat_final.png)
 
-1. Lancer l'application sur un émulateur ou un appareil connecté en USB.
-2. Avec Android Studio : **Device Explorer → Screen Capture** ou bouton **Screenshot** de la barre d'appareil.
+## Régénérer les captures
+
+1. Lancer l’application sur un émulateur ou un appareil connecté en USB.
+2. Avec Android Studio : bouton **Screenshot** de la barre d’appareil.
 3. En ligne de commande :
 
 ```powershell

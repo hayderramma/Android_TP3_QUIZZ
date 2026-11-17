@@ -76,7 +76,7 @@ La rotation de l’écran est gérée avec `onSaveInstanceState` et `restaurerEt
 | Rotation de l’écran | État de la partie conservé | Conforme |
 | Petit écran | Choix accessibles par défilement, textes lisibles | Conforme |
 
-Les cas limites ont été vérifiés en particulier : le bouton de navigation reste masqué tant qu’aucune réponse n’est donnée, et la progression ne dépasse jamais 5.
+Les cas limites ont été vérifiés en particulier : le bouton de navigation reste masqué tant qu’aucune réponse n’est donnée, et la progression ne dépasse jamais 5. Les quatre situations principales ont été capturées dans le dossier `captures/` : question initiale (0/5), bonne réponse (1/5), mauvaise réponse (progression 2/5, score inchangé) et résultat final 5/5.
 
 ## 6. Difficultés rencontrées
 

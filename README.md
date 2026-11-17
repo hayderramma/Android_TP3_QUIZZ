@@ -12,7 +12,7 @@ suit sa progression puis consulte son score final. Tout se passe dans **une seul
 | `app/src/main/res/layout/activity_main.xml` | Interface XML : bandeau titre/score, `ProgressBar`, `ImageView`, textes, 3 boutons de choix, navigation et zone de résultat. |
 | `app/src/main/res/drawable/` | Les cinq images vectorielles : `triangle.xml`, `carre.xml`, `cercle.xml`, `etoile.xml`, `rectangle.xml` (plus `ic_launcher.xml`). |
 | `app/src/main/res/values/` | Chaînes, couleurs et thème. |
-| `captures/` | Captures d'écran attendues (voir `captures/README.md`). |
+| `captures/` | Quatre captures d'écran réelles : question, bonne réponse, mauvaise réponse, résultat final. |
 | `compte-rendu/compte-rendu.md` | Compte rendu du travail et réponses aux questions du TP. |
 | `gradle/wrapper/` et `gradlew*` | Gradle Wrapper : aucun Gradle local n'est nécessaire. |
 
@@ -23,7 +23,7 @@ Les dossiers `build/`, `.gradle/` et le fichier `local.properties` sont exclus d
 1. Installer **Android Studio** (avec le SDK Android et un JDK 17).
 2. Cloner ce dépôt, puis **File → Open…** et sélectionner la racine du projet (`settings.gradle.kts`).
 3. Laisser Android Studio télécharger les dépendances Gradle (première synchronisation).
-4. Lancer sur un émulateur ou un appareil physical avec **Run ▶** (`app`).
+4. Lancer sur un émulateur ou un appareil physique avec **Run ▶** (`app`).
 
 Ligne de commande (équivalent) :
 
